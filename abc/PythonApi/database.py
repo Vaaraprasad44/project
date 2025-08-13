@@ -1,5 +1,6 @@
 from typing import Dict, List, Optional
-from .models import Product, ProductCreate, ProductUpdate
+from models import Product, ProductCreate, ProductUpdate
+
 
 class InMemoryDB:
     def __init__(self):

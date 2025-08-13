@@ -1,8 +1,8 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from typing import List
-from .models import Product, ProductCreate, ProductUpdate
-from .database import db
+from models import Product, ProductCreate, ProductUpdate
+from database import db
 
 app = FastAPI(title="Product Inventory API", version="v1")
 
